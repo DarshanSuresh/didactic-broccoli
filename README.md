@@ -2,7 +2,7 @@
 
 *(FastAPI · Docker · Kubernetes)*
 
-> 🎥 Inspired by hands-on MLOps learning projects
+> Inspired by hands-on MLOps learning projects
 
 **didactic-broccoli** is a **beginner-focused MLOps repository** designed to teach the **end-to-end lifecycle of a machine learning project** using a simple, real-world use case: **Diabetes Prediction**.
 
@@ -10,13 +10,13 @@ This project emphasizes **learning by doing**, making it ideal for students and 
 
 ---
 
-## 🎯 Project Objective
+##  Project Objective
 
 Build, serve, and deploy a machine learning model that predicts whether a person is diabetic based on basic health metrics—while following **production-style MLOps practices**.
 
 ---
 
-## 📊 Problem Statement
+##  Problem Statement
 
 Predict if a person is diabetic using the following features:
 
@@ -30,18 +30,18 @@ The model is trained using the **Pima Indians Diabetes Dataset** and a **Random 
 
 ---
 
-## 🧠 What You’ll Learn
+##  What You’ll Learn
 
-* ✅ Training a machine learning model
-* ✅ Saving and loading trained models
-* ✅ Building REST APIs with **FastAPI**
-* ✅ Containerizing ML applications using **Docker**
-* ✅ Deploying ML services on **Kubernetes**
-* ✅ Understanding basic MLOps workflows
+*  Training a machine learning model
+*  Saving and loading trained models
+*  Building REST APIs with **FastAPI**
+*  Containerizing ML applications using **Docker**
+*  Deploying ML services on **Kubernetes**
+*  Understanding basic MLOps workflows
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 didactic-broccoli/
@@ -57,23 +57,23 @@ didactic-broccoli/
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
-### 1️⃣ Clone the Repository
+### 1️ Clone the Repository
 
 ```bash
 git clone <your-repo-url>
 cd didactic-broccoli
 ```
 
-### 2️⃣ Create Virtual Environment
+### 2️ Create Virtual Environment
 
 ```bash
 python3 -m venv .mlops
 source .mlops/bin/activate
 ```
 
-### 3️⃣ Install Dependencies
+### 3️ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -81,7 +81,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🏋️ Train the Model
+## Train the Model
 
 ```bash
 python train.py
@@ -91,7 +91,7 @@ This will train the Random Forest model and save it locally for inference.
 
 ---
 
-## ⚡ Run the API Locally
+##  Run the API Locally
 
 ```bash
 uvicorn main:app --reload
@@ -115,7 +115,7 @@ Once running, access:
 
 ---
 
-## 🐳 Dockerize the Application
+##  Dockerize the Application
 
 ### Build Docker Image
 
@@ -131,7 +131,7 @@ docker run -p 8000:8000 diabetes-prediction-model
 
 ---
 
-## ☸ Deploy on Kubernetes
+##  Deploy on Kubernetes
 
 Make sure your Kubernetes cluster is running.
 
@@ -148,7 +148,7 @@ kubectl get services
 
 ---
 
-## 🎓 Who Is This For?
+##  Who Is This For?
 
 * Students learning **MLOps**
 * Beginners in **FastAPI, Docker, or Kubernetes**
@@ -157,7 +157,7 @@ kubectl get services
 
 ---
 
-## 📌 Future Improvements
+##  Future Improvements
 
 * Model versioning
 * CI/CD pipeline
@@ -166,7 +166,7 @@ kubectl get services
 
 ---
 
-## 🙌 Credits
+##  Credits
 
 Inspired by community-driven MLOps learning projects.
 Built for **learning, experimentation, and clarity**.
