@@ -1,5 +1,4 @@
-
-# 🩺 didactic-broccoli – Beginner-Friendly MLOps Project
+# 🩺 didactic-broccoli
 
 *(FastAPI · Docker · Kubernetes)*
 
