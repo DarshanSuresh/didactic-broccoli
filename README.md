@@ -8,7 +8,7 @@
 
 This project emphasizes **learning by doing**, making it ideal for students and newcomers exploring **MLOps, DevOps, and ML deployment**.
 
----
+--- 
 
 ##  Project Objective
 
