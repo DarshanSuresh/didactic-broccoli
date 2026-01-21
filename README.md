@@ -1,6 +1,6 @@
 # 🩺 didactic-broccoli
 
-*(FastAPI · Docker · Kubernetes)* 
+*(FastAPI · Docker · Kubernetes)*
 
 > Inspired by hands-on MLOps learning projects
 
