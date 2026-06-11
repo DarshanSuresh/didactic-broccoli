@@ -11,7 +11,7 @@ This project emphasizes **learning by doing**, making it ideal for students and 
 --- 
 
 ##  Project Objective
-
+ 
 Build, serve, and deploy a machine learning model that predicts whether a person is diabetic based on basic health metrics—while following **production-style MLOps practices**.
 
 ---
